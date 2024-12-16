@@ -1,5 +1,6 @@
-package com.travelplanner.bookingservcie.dto;
+package com.travelplanner.bookingservice.model;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -7,11 +8,16 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "booking")
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookingRequest {
+@Builder
+public class Booking {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String customerName;
     private String customerEmail;
     private String destination;

@@ -1,4 +1,4 @@
-package com.travelplanner.bookingservcie.dto;
+package com.travelplanner.bookingservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,8 +11,7 @@ import java.time.LocalDate;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookingResponse {
-    private Long id;
+public class BookingRequest {
     private String customerName;
     private String customerEmail;
     private String destination;
