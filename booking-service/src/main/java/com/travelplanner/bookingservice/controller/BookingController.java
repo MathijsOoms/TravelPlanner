@@ -1,8 +1,8 @@
-package com.travelplanner.bookingservcie.controller;
+package com.travelplanner.bookingservice.controller;
 
-import com.travelplanner.bookingservcie.dto.BookingRequest;
-import com.travelplanner.bookingservcie.dto.BookingResponse;
-import com.travelplanner.bookingservcie.service.BookingService;
+import com.travelplanner.bookingservice.dto.BookingRequest;
+import com.travelplanner.bookingservice.dto.BookingResponse;
+import com.travelplanner.bookingservice.service.BookingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

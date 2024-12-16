@@ -8,17 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="weather-service" />
-        <module name="booking-servcie" />
+        <module name="booking-service" />
         <module name="travel-services" />
       </profile>
-      <profile name="Annotation profile for booking-servcie" enabled="true">
+      <profile name="Annotation profile for travel-services" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="travel-services" />
+        <module name="travel-service" />
         <module name="places-service" />
         <module name="booking-servcie" />
       </profile>
@@ -26,9 +26,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="booking-servcie" options="-parameters" />
+      <module name="booking-service" options="-parameters" />
       <module name="places-service" options="-parameters" />
-      <module name="travel-services" options="-parameters" />
+      <module name="travel-service" options="-parameters" />
       <module name="weather-service" options="-parameters" />
     </option>
   </component>

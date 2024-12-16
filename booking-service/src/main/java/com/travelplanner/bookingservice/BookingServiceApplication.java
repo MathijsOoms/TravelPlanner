@@ -1,13 +1,13 @@
-package com.travelplanner.bookingservcie;
+package com.travelplanner.bookingservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookingServcieApplication {
+public class BookingServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BookingServcieApplication.class, args);
+        SpringApplication.run(BookingServiceApplication.class, args);
     }
 
 }

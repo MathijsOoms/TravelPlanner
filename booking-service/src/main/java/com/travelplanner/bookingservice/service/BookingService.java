@@ -1,9 +1,9 @@
-package com.travelplanner.bookingservcie.service;
+package com.travelplanner.bookingservice.service;
 
-import com.travelplanner.bookingservcie.dto.BookingRequest;
-import com.travelplanner.bookingservcie.dto.BookingResponse;
-import com.travelplanner.bookingservcie.model.Booking;
-import com.travelplanner.bookingservcie.repository.BookingRepository;
+import com.travelplanner.bookingservice.dto.BookingRequest;
+import com.travelplanner.bookingservice.dto.BookingResponse;
+import com.travelplanner.bookingservice.model.Booking;
+import com.travelplanner.bookingservice.repository.BookingRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
