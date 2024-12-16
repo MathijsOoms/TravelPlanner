@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="weather-service" />
         <module name="booking-servcie" />
+        <module name="travel-services" />
       </profile>
       <profile name="Annotation profile for booking-servcie" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -19,6 +20,7 @@
         </processorPath>
         <module name="travel-services" />
         <module name="places-service" />
+        <module name="booking-servcie" />
       </profile>
     </annotationProcessing>
   </component>
