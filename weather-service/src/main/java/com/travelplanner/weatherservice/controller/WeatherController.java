@@ -24,7 +24,7 @@ public class WeatherController {
     }
 
     // GET: Fetch weather by city
-    @GetMapping()
+    @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<WeatherResponse> getWeatherByCity(@RequestParam String city) {
         return weatherService.getWeatherByCity(city);

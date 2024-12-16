@@ -6,7 +6,9 @@ import com.travelplanner.weatherservice.model.Weather;
 import com.travelplanner.weatherservice.repository.WeatherRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -36,6 +38,9 @@ public class WeatherService {
     // Get weather by city
     public List<WeatherResponse> getWeatherByCity(String city) {
         List<Weather> weathers = weatherRepository.findByCity(city);
+        if (weathers.isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No weather data found for city: " + city);
+        }
         return weathers.stream().map(this::mapToWeatherResponse).toList();
     }
 

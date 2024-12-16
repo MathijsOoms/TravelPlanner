@@ -8,15 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="weather-service" />
+        <module name="booking-servcie" />
         <module name="travel-services" />
       </profile>
-      <profile name="Annotation profile for travel-services" enabled="true">
+      <profile name="Annotation profile for booking-servcie" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
+        <module name="travel-services" />
         <module name="places-service" />
         <module name="booking-servcie" />
       </profile>
