@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="springframework.data.spring.mongodb" type="repository">
+    <properties maven-id="org.springframework.data:spring-data-mongodb:3.3.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/3.3.3/spring-data-mongodb-3.3.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.3.17/spring-tx-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.17/spring-context-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.17/spring-aop-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.17/spring-beans-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.17/spring-core-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.17/spring-jcl-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.17/spring-expression-5.3.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.6.3/spring-data-commons-2.6.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/4.4.2/mongodb-driver-core-4.4.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/4.4.2/bson-4.4.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
