@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="travel-service" />
         <module name="weather-service" />
+        <module name="places-service" />
         <module name="booking-service" />
       </profile>
       <profile name="Annotation profile for places-service" enabled="true">
@@ -18,7 +19,6 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="places-service" />
         <module name="booking-servcie" />
       </profile>
     </annotationProcessing>
