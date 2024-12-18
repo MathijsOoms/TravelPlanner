@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="travel-service" />
         <module name="weather-service" />
-        <module name="travel-services" />
         <module name="places-service" />
+        <module name="booking-service" />
       </profile>
       <profile name="Annotation profile for places-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -24,9 +25,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="booking-servcie" options="-parameters" />
+      <module name="booking-service" options="-parameters" />
       <module name="places-service" options="-parameters" />
-      <module name="travel-services" options="-parameters" />
+      <module name="travel-service" options="-parameters" />
       <module name="weather-service" options="-parameters" />
     </option>
   </component>
